@@ -1,7 +1,9 @@
 #include <iostream>
 #include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
-unsigned char asciiImg[20][20] = {
+unsigned char asciiImg[20][21] = {
 	"....................",
 	"##..................",
 	".##.................",
@@ -21,8 +23,8 @@ unsigned char asciiImg[20][20] = {
 	"...............##...",
 	"................##..",
 	".................##.",
-	"..................#."
-};
+        "..................##"
+}
 
 using namespace cv;
 
@@ -37,7 +39,7 @@ int main( )
 	imwrite( "fromAscii.png", image );
 	imshow( "fromAscii", image );
 
-	cout << image << std::endl << std::endl;
+	std::cout << image << std::endl << std::endl;
 
 	waitKey( 0 );
 
