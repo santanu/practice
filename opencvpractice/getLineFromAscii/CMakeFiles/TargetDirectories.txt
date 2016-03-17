@@ -1,0 +1,1 @@
+/home/sc/Desktop/opencvpractice/getLineFromAscii/CMakeFiles/GetLineFromASCII.dir
