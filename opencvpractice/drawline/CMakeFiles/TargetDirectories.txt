@@ -1,1 +1,0 @@
-/home/sc/Desktop/opencvpractice/drawline/CMakeFiles/DrawLine.dir
